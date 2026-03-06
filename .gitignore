@@ -1,6 +1,10 @@
 runs/
 __pycache__/
-*.pt
+.venv/
 *.jpg
 *.png
-.venv/
+
+# Ignore all .pt files EXCEPT these two:
+*.pt
+!cls_model.pt
+!seg_model.pt
