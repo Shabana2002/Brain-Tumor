@@ -44,9 +44,8 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- 2. LOAD MODELS ---
-cls_model_path = r'C:/Users/hp/Downloads/Brain_Tumor_Prediction_and_Segmentation/runs/classify/Tumor_Results/Brain_Classify_Final/weights/best.pt'
-seg_model_path = r'C:/Users/hp/Downloads/Brain_Tumor_Prediction_and_Segmentation/runs/segment/train/weights/best.pt'
-
+cls_model_path = "cls_model.pt"
+seg_model_path = "seg_model.pt"
 
 @st.cache_resource
 def load_models(c_path, s_path):
