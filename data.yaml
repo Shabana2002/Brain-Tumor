@@ -1,0 +1,7 @@
+
+path: C:/Users/hp/Downloads/Brain_Tumor_Prediction_and_Segmentation/Segmentation_Dataset_YOLO
+train: train/images
+val: val/images
+
+nc: 3
+names: ['Glioma', 'Meningioma', 'Pituitary']
